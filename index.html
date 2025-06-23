@@ -43,62 +43,29 @@
         periodo RA: 324143965
       </th>
     </table>
-    <div class="container">
-      <table>
-          <thead>
-              <tr id="Paragafosec">
-<td>UCS cursadas</td>
-</tr>
-          </thead>
-          
-          <div class="uc-table-container">
-                   <tbody id="listaUcs"> <tr>
-                     <td>Modelagem de software</td>
-                     <td class="acoes"> <button class="mover-para-cima" title="Mover para cima">&#9650;</button>
-                      <button class="mover-para-baixo" title="Mover para baixo">&#9660;</button>
-               </td>
-              </tr>
-             <tr>
-               <td>Ambientes computacionais e conectividade</td>
-               <td class="acoes"> <button class="mover-para-cima" title="Mover para cima">&#9650;</button>
-                <button class="mover-para-baixo" title="Mover para baixo">&#9660;</button>
-              </td>
-            </tr>
-            <tr>
-              <td>Usabilidade, desenvolvimento web, mobile e jogos</td>
-              <td class="acoes"> <button class="mover-para-cima" title="Mover para cima">&#9650;</button>
-                <button class="mover-para-baixo" title="Mover para baixo">&#9660;</button>
-              </td>
-            </tr>
-            <tr>
-              <td>Programação de soluções computacionais</td>
-              <td class="acoes"> <button class="mover-para-cima" title="Mover para cima">&#9650;</button>
-                <button class="mover-para-baixo" title="Mover para baixo">&#9660;</button>
-              </td>
-            </tr>
-            <tr>
-              <td>Sistemas computacionais e segurança</td>
-              <td class="acoes"> <button class="mover-para-cima" title="Mover para cima">&#9650;</button>
-                <button class="mover-para-baixo" title="Mover para baixo">&#9660;</button>
-              </td>
-            </tr>
-            <tr>
-              <td>Vida & Carreira</td>
-              <td class="acoes"> <button class="mover-para-cima" title="Mover para cima">&#9650;</button>
-                <button class="mover-para-baixo" title="Mover para baixo">&#9660;</button>
-              </td>
-            </tr>
-            <tr>
-              <td>Sistemas distribuídos e mobile</td>
-              <td class="acoes"> <button class="mover-para-cima" title="Mover para cima">&#9650;</button>
-                <button class="mover-para-baixo" title="Mover para baixo">&#9660;</button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <button id="addUcBtn">Adicionar Nova UC</button>
-   </div>
+    <table id="UCS">
+      <tr id="Paragafosec">
+        <td>UCS cursadas</td>
+      </tr>
+      <tr>
+        <th>Modelagem de software</th>
+        <th>Programação de soluções computacionais</th>
+        <th>Vida & Carreira</th>
+      </tr>
+      <tr>
+        <th>Ambientes computacionais e conectividade</th>
+        <th>Sistemas computacionais e segurança</th>
+        <th>istemas distribuídos e mobile</th>
+      </tr>
+      <tr>
+        <th>Usabilidade, desenvolvimento web, mobile e jogos</th>
+      </tr>
+   
+  </table>
+
+
+    </table>
+
     <table>
       <tr id="Paragafosec">
         <td>Sobre mim</td>
@@ -138,37 +105,4 @@
         </td>
       </tr>
     </table>
-   <label id="Paragafosec" for="gmail">Digite seu Gmail:</label><br>
-  <input type="text" id="gmail" onblur="validarGmail()">
-  <div id="mensagem" class="mensagem"></div>
-     <div class="container">
-        <h1>Validar CPF</h1>
-        <div class="input-group">
-          <label for="cpfInput">Digite seu CPF:</label>
-          <input type="text" id="cpfInput" placeholder="000.000.000-00" maxlength="14">
-        </div>
-        <p id="message"></p>
-      </table>  
-    </div>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Perfil - Notas Pessoais</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<h2> Anotações</h2>
-  <div class="container">
-      <div class="tab-container">
-          <div id="info" class="tab-content active">
-              <ul id="profile-details">
-          <div id="notes" class="tab-content">
-              <textarea id="personalNotes" placeholder="digite anotações aqui..."></textarea>
-              <p class="save-status" id="saveStatus"></p>
-          </div>
-       </div>
-  </div>
-<script src="java.js"></script>
-
   </body>
